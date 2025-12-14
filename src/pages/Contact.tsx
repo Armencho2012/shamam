@@ -21,15 +21,10 @@ const Contact = () => {
     // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    toast({
-<<<<<<< HEAD
+        toast({
       title: "Հաղորդագրությունը ուղարկված է!",
-      description: "Շատ շնորհակալ ենք, մենք շուտով կհետադարձանք ձեզ։",
-=======
-      title: "Message sent!",
-      description: "Thank you for reaching out. We'll get back to you soon!",
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-    });
+      description: "Շատ շնորհակալ ենք, մենք շուտով կհետադարձենք ձեզ։",
+        });
 
     setFormData({ name: "", email: "", message: "" });
     setIsSubmitting(false);
@@ -52,17 +47,10 @@ const Contact = () => {
         <section className="py-16 md:py-24 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-<<<<<<< HEAD
               Կապվել մեզ հետ
             </h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
               Ուղարկեք մեզ հաղորդագրություն կամ պատվիրեք ձեր սիրելի քաղցրավենիքները։ Մենք սիրով սպասում ենք ձեր հարցերին։
-=======
-              Get in Touch
-            </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Send us a message or order your favorite sweets. We'd love to hear from you!
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
             </p>
           </div>
         </section>
@@ -74,11 +62,7 @@ const Contact = () => {
               {/* Contact Form */}
               <div>
                 <h2 className="font-display text-3xl md:text-4xl text-foreground mb-8">
-<<<<<<< HEAD
                   Ուղարկել հաղորդագրություն
-=======
-                  Send a Message
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -86,11 +70,7 @@ const Contact = () => {
                       htmlFor="name"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-<<<<<<< HEAD
                       Ձեր անունը
-=======
-                      Your Name
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     </label>
                     <input
                       type="text"
@@ -101,11 +81,7 @@ const Contact = () => {
                       required
                       maxLength={100}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-<<<<<<< HEAD
                       placeholder="Ինչ անունով դիմենք ձեզ?"
-=======
-                      placeholder="What should we call you?"
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     />
                   </div>
                   <div>
@@ -113,11 +89,7 @@ const Contact = () => {
                       htmlFor="email"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-<<<<<<< HEAD
                       Էլ. հասցե
-=======
-                      Email Address
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     </label>
                     <input
                       type="email"
@@ -128,11 +100,7 @@ const Contact = () => {
                       required
                       maxLength={255}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-<<<<<<< HEAD
                       placeholder="e.g. you@example.com"
-=======
-                      placeholder="your@email.com"
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     />
                   </div>
                   <div>
@@ -140,11 +108,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-<<<<<<< HEAD
                       Ձեր հաղորդագրությունը
-=======
-                      Your Message
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     </label>
                     <textarea
                       id="message"
@@ -155,11 +119,7 @@ const Contact = () => {
                       maxLength={1000}
                       rows={6}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all resize-none"
-<<<<<<< HEAD
                       placeholder="Նշեք ձեր պատվերը, հարցը կամ պարզապես ողջույն ուղարկեք..."
-=======
-                      placeholder="Tell us about your order, question, or just say hello..."
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                     />
                   </div>
                   <Button
@@ -170,19 +130,11 @@ const Contact = () => {
                     className="w-full sm:w-auto"
                   >
                     {isSubmitting ? (
-<<<<<<< HEAD
                       "Ուղարկվում..."
                     ) : (
                       <>
                         <Send className="w-4 h-4 mr-2" />
                         Ուղարկել հաղորդագրություն
-=======
-                      "Sending..."
-                    ) : (
-                      <>
-                        <Send className="w-4 h-4 mr-2" />
-                        Send Message
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                       </>
                     )}
                   </Button>
@@ -191,13 +143,7 @@ const Contact = () => {
 
               {/* Contact Info */}
               <div className="space-y-8">
-                <h2 className="font-display text-3xl md:text-4xl text-foreground mb-8">
-<<<<<<< HEAD
-                  Այլ կապի միջոցներ
-=======
-                  Other Ways to Reach Us
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                </h2>
+                <h2 className="font-display text-3xl md:text-4xl text-foreground mb-8">Այլ կապի միջոցներ</h2>
 
                 <div className="space-y-6">
                   {/* Phone */}
@@ -206,26 +152,14 @@ const Contact = () => {
                       <Phone className="w-5 h-5 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-body font-semibold text-foreground mb-1">
-<<<<<<< HEAD
-                        Զանգահարեք մեզ
-=======
-                        Call Us
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </h3>
+                      <h3 className="font-body font-semibold text-foreground mb-1">Զանգահարեք մեզ</h3>
                       <a
                         href="tel:+37493788083"
                         className="font-body text-primary hover:underline"
                       >
                         +374 93 788 083
                       </a>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-<<<<<<< HEAD
-                        Առկա է աշխատանքային ժամերին
-=======
-                        Available during opening hours
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </p>
+                      <p className="font-body text-sm text-muted-foreground mt-1">Առկա է աշխատանքային ժամերին</p>
                     </div>
                   </div>
 
@@ -235,26 +169,14 @@ const Contact = () => {
                       <Mail className="w-5 h-5 text-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-body font-semibold text-foreground mb-1">
-<<<<<<< HEAD
-                        Մենք էլեկտրոնային
-=======
-                        Email Us
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </h3>
+                      <h3 className="font-body font-semibold text-foreground mb-1">Մեզ էլ. հասցե</h3>
                       <a
                         href="mailto:hello@shamams.am"
                         className="font-body text-primary hover:underline"
                       >
                         hello@shamams.am
                       </a>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-<<<<<<< HEAD
-                        Պատասխանել ենք 24 ժամվա ընթացքում
-=======
-                        We respond within 24 hours
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </p>
+                      <p className="font-body text-sm text-muted-foreground mt-1">Պատասխանում ենք մինչև 24 ժամվա ընթացքում</p>
                     </div>
                   </div>
 
@@ -264,25 +186,9 @@ const Contact = () => {
                       <MapPin className="w-5 h-5 text-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-body font-semibold text-foreground mb-1">
-<<<<<<< HEAD
-                        Այցելեք մեզ
-                      </h3>
-                      <p className="font-body text-muted-foreground">
-                        Մյասնիկյան 19, Վանաձոր
-                      </p>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-                        Երկ.-Ուր. 9:00 - 20:00, Շբ. 10:00 - 21:00, Կր. 10:00 - 19:00
-=======
-                        Visit Us
-                      </h3>
-                      <p className="font-body text-muted-foreground">
-                        Myasnikyan 19, Vanadzor
-                      </p>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-                        Mon-Fri 9-8, Sat 10-9, Sun 10-7
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </p>
+                      <h3 className="font-body font-semibold text-foreground mb-1">Այցելեք մեզ</h3>
+                      <p className="font-body text-muted-foreground">Մյասնիկյան 19, Վանաձոր</p>
+                      <p className="font-body text-sm text-muted-foreground mt-1">Երկ.-Ուր. 9:00 - 20:00, Շբ. 10:00 - 21:00, Կր. 10:00 - 19:00</p>
                     </div>
                   </div>
                 </div>
@@ -299,12 +205,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full font-body text-foreground hover:from-primary/30 hover:to-accent/30 transition-all"
                     >
-                      <Instagram className="w-5 h-5" />
-<<<<<<< HEAD
-                      Ինստագրամ
-=======
-                      Instagram
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+                      <Instagram className="w-5 h-5" /> Ինստագրամ
                     </a>
                     <a
                       href="https://facebook.com"
@@ -312,12 +213,7 @@ const Contact = () => {
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-5 py-3 bg-muted rounded-full font-body text-foreground hover:bg-muted/80 transition-all"
                     >
-                      <Facebook className="w-5 h-5" />
-<<<<<<< HEAD
-                      Ֆեյսբուք
-=======
-                      Facebook
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+                      <Facebook className="w-5 h-5" /> Ֆեյսբուք
                     </a>
                   </div>
                 </div>
