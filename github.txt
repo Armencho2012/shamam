@@ -1,5 +1,4 @@
-git checkout main
-git pull origin main
+git pull
 git add -A
 git commit -m "update"
-git push origin main
+git push
