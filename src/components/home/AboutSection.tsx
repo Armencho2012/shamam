@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 import cafeInterior from "@/assets/image (5).png";
-=======
-import cafeInterior from "@/assets/cafe-interior.jpg";
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
 
 export const AboutSection = () => {
   return (
@@ -14,11 +10,7 @@ export const AboutSection = () => {
             <div className="relative rounded-3xl overflow-hidden shadow-hover">
               <img
                 src={cafeInterior}
-<<<<<<< HEAD
-                alt="Շամամի Հրուշակարան - մեր բակլավան"
-=======
-                alt="Shamam's Macarons cozy café interior"
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+                alt="Շամամի Հրուշկարան — մեր հաճելի աշխարհը"
                 className="w-full h-auto object-cover"
               />
             </div>
@@ -30,7 +22,6 @@ export const AboutSection = () => {
           {/* Content */}
           <div className="space-y-6 lg:space-y-8">
             <span className="inline-block font-body text-sm font-semibold text-primary uppercase tracking-wider">
-<<<<<<< HEAD
 Մեր Պատմությունը
             </span>
             <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground leading-tight">
@@ -38,34 +29,13 @@ export const AboutSection = () => {
             </h2>
             <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
               <p>
-Վանաձորի սրտում գտնվող մեր հրուշակարանը սկսվել է որպես երազանք՝ միավորելու ֆրանսիական պաստառի նրբագեղությունը հայկական հյուրընկալության ջերմության հետ:
+Վանաձորի սրտում գտնվող մեր հրուշամանությունը սկսվել է որպես երազանք՝ միավորելու ֆրանսիական պաստառի նրբագեղությունը հայկական հյուրընկալության ջերմության հետ:
               </p>
               <p>
 Այն, ինչ սկսվել էր փոքր խոհանոցում տատիկի բաղադրատոմսերով, այժմ վերածվել է սիրելի հրուշակարանի, որտեղ յուրաքանչյուր մակարոն պատրաստվում է սիրով, ամեն կրուասան թխվում է ոսկե կարմրությամբ, և ամեն բաժակ սուրճ մատուցվում է ժպիտով:
               </p>
               <p>
 Մենք հավատում ենք, որ լավագույն աղանդերները պատրաստվում են որակյալ բաղադրիչներով, ժամանակի փորձարկված տեխնոլոգիաներով և ամենակարևորը՝ սիրով: Երբ այցելում եք Շամամ, դուք պարզապես հաճախորդ չեք, դուք մեր ընտանիքի անդամ եք:
-=======
-              Our Story
-            </span>
-            <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground leading-tight">
-              A Family Tradition of Sweetness
-            </h2>
-            <div className="space-y-4 font-body text-muted-foreground leading-relaxed">
-              <p>
-                Nestled in the heart of Vanadzor, Shamam's Macarons started as a dream — 
-                to bring the elegance of French patisserie together with the warmth of Armenian hospitality.
-              </p>
-              <p>
-                What began in a small kitchen with a grandmother's recipes has blossomed into a beloved 
-                neighborhood café where every macaron is a labor of love, every croissant is baked to 
-                golden perfection, and every cup of coffee comes with a smile.
-              </p>
-              <p>
-                We believe that the best desserts are made with quality ingredients, time-honored techniques, 
-                and most importantly — love. When you visit Shamam's, you're not just a customer; 
-                you're part of our family.
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
               </p>
             </div>
             <div className="flex items-center gap-4 pt-4">
