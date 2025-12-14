@@ -1,7 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Sparkles } from "lucide-react";
-<<<<<<< HEAD
 import macaronsImage from "@/assets/image (1).png";
 import croissantsImage from "@/assets/image (2).png";
 import baklavaImage from "@/assets/image (3).png";
@@ -9,15 +8,6 @@ import coffeeImage from "@/assets/image (4).png";
 import macaronRose from "@/assets/image (6).png";
 import macaronPistachio from "@/assets/image (7).png";
 import macaronLavender from "@/assets/image (8).png";
-=======
-import macaronsImage from "@/assets/macarons-display.jpg";
-import croissantsImage from "@/assets/croissants.jpg";
-import baklavaImage from "@/assets/baklava.jpg";
-import coffeeImage from "@/assets/coffee.jpg";
-import macaronRose from "@/assets/macaron-rose.jpg";
-import macaronPistachio from "@/assets/macaron-pistachio.jpg";
-import macaronLavender from "@/assets/macaron-lavender.jpg";
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
 
 interface MenuItem {
   name: string;
@@ -35,7 +25,6 @@ interface MenuCategory {
 
 const menuCategories: MenuCategory[] = [
   {
-<<<<<<< HEAD
     title: "Մակարոններ",
     icon: "🍥",
     color: "bg-primary/10 border-primary/20",
@@ -87,8 +76,6 @@ const menuCategories: MenuCategory[] = [
       { name: "Թիկս տաք շոկոլադ", description: "Բելգիական շոկոլադ՝ կրեմով", price: "1,000 AMD" },
       { name: "Թեյերի ընտրանի", description: "Պրեմիում թերթաթիկ թեյեր", price: "600 AMD" },
       { name: "Թարմ լիմոնադ", description: "Տնական, մաղալով", price: "800 AMD" },
-    ],
-  },
     ],
   },
 ];

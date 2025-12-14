@@ -3,46 +3,26 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
   {
     name: "Anna M.",
-<<<<<<< HEAD
     role: "Տեղացի",
     content: "Մակարոնները այստեղ ինձ հիշեցնում են Փարիզի իմ ուղևորությունը։ Աչքահաց, իսկ սեփականատերերը շատ ջերմ են։ Սա դարձավ իմ սիրելի վայրը յուրաքանչյուր տոնակատարության համար։",
-=======
-    role: "Local Resident",
-    content: "The macarons here remind me of my trip to Paris! Absolutely divine and the owners are so lovely. It's become my go-to spot for every celebration.",
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     rating: 5,
   },
   {
     name: "David K.",
-<<<<<<< HEAD
     role: "Սուրճի սիրահար",
     content: "Լավագույն սուրճը Վանաձորում։ Բարիստաները հմուտ են, իսկ թխվածքներն իդեալական են բաժակին։ Ամեն այցելությունը տպավորում է տնականություն։",
-=======
-    role: "Coffee Enthusiast",
-    content: "Best coffee in Vanadzor, hands down. The baristas know their craft, and the pastries are the perfect accompaniment. Feels like home every time.",
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     rating: 5,
   },
   {
     name: "Mariam S.",
-<<<<<<< HEAD
     role: "Կանոնավոր հաճախորդ",
-    content: "Բաղլավան ինձ ետ է տանում տատիկիս խոհանոց։ Այն իսկական է, քաղցր, բայց չափավոր և պատրաստվում է մեծ հոգատարությամբ։ Պատվիրում եմ տուփեր բոլոր छुटիկների համար։",
-=======
-    role: "Regular Customer",
-    content: "The baklava takes me back to my grandmother's kitchen. It's authentic, sweet but not too sweet, and made with so much care. I order boxes for every holiday!",
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+    content: "Բաղլավան ինձ ետ է տանում տատիկիս խոհանոց։ Այն իսկական է, քաղցր, բայց չափավոր և պատրաստվում է մեծ հոգատարությամբ։ Պատվիրում եմ տուփեր բոլոր տոների համար։",
     rating: 5,
   },
   {
     name: "Arsen T.",
-<<<<<<< HEAD
     role: "Առաջին այցող",
     content: "Ես եկա կրուասանների պատճառով և մնացի մթնոլորտի պատճառով։ Շատ հարմարավետ ու ընդունող տեղ է։ Գործակատարները հիշում են ձեր անունը մի այցից հետո։",
-=======
-    role: "First-time Visitor",
-    content: "I came for the croissants and stayed for the atmosphere. Such a cozy, welcoming place. The staff remembers your name after just one visit!",
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     rating: 5,
   },
 ];
@@ -54,17 +34,10 @@ export const TestimonialsSection = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block font-body text-sm font-semibold text-primary uppercase tracking-wider mb-4">
-<<<<<<< HEAD
             Հյուրերի կարծիքները
           </span>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
             Մեր հյուրերի քաղցր խոսքերը
-=======
-            What People Say
-          </span>
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
-            Sweet Words from Our Guests
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
           </h2>
         </div>
 
