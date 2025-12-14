@@ -1,7 +1,6 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useState } from "react";
-<<<<<<< HEAD
 import macaronsImage from "@/assets/image (1).png";
 import croissantsImage from "@/assets/image (2).png";
 import baklavaImage from "@/assets/image (3).png";
@@ -11,17 +10,6 @@ import macaronRose from "@/assets/image (6).png";
 import macaronPistachio from "@/assets/image (7).png";
 import macaronLavender from "@/assets/image (8).png";
 import heroImage from "@/assets/image.png";
-=======
-import macaronsImage from "@/assets/macarons-display.jpg";
-import croissantsImage from "@/assets/croissants.jpg";
-import baklavaImage from "@/assets/baklava.jpg";
-import coffeeImage from "@/assets/coffee.jpg";
-import cafeInterior from "@/assets/cafe-interior.jpg";
-import macaronRose from "@/assets/macaron-rose.jpg";
-import macaronPistachio from "@/assets/macaron-pistachio.jpg";
-import macaronLavender from "@/assets/macaron-lavender.jpg";
-import heroImage from "@/assets/hero-bakery.jpg";
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
 
 interface GalleryImage {
   src: string;
@@ -30,7 +18,6 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
-<<<<<<< HEAD
   { src: heroImage, alt: "Շամամի ներքին տեսք՝ մակարոնների ցուցադրությամբ", category: "Ներս" },
   { src: macaronsImage, alt: "Գունավոր ֆրանսիական մակարոններ", category: "Մակարոններ" },
   { src: macaronRose, alt: "Վարդի համով մակարոն", category: "Մակարոններ" },
@@ -46,23 +33,6 @@ const categories = ["Բոլորը", "Մակարոններ", "Թխվածքներ"
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState("Բոլորը");
-=======
-  { src: heroImage, alt: "Shamam's bakery interior with macarons display", category: "Interior" },
-  { src: macaronsImage, alt: "Colorful French macarons", category: "Macarons" },
-  { src: macaronRose, alt: "Rose flavored macaron", category: "Macarons" },
-  { src: macaronPistachio, alt: "Pistachio macaron", category: "Macarons" },
-  { src: macaronLavender, alt: "Lavender macaron", category: "Macarons" },
-  { src: croissantsImage, alt: "Fresh buttery croissants", category: "Pastries" },
-  { src: baklavaImage, alt: "Traditional Armenian baklava", category: "Pastries" },
-  { src: coffeeImage, alt: "Specialty latte art", category: "Coffee" },
-  { src: cafeInterior, alt: "Cozy café atmosphere", category: "Interior" },
-];
-
-const categories = ["All", "Macarons", "Pastries", "Coffee", "Interior"];
-
-const Gallery = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   const filteredImages =
@@ -77,19 +47,8 @@ const Gallery = () => {
         {/* Page Header */}
         <section className="py-16 md:py-24 bg-gradient-to-br from-accent/10 via-primary/5 to-secondary/10">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-<<<<<<< HEAD
-              Պատկերասրահ
-            </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Մեր ձեռագործ քաղցրավենիքների, հարմարավետ պահերի և երջանիկ հաճախորդների կադրեր։
-=======
-              Gallery
-            </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              A glimpse into our world of handcrafted sweets, cozy moments, and happy customers.
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-            </p>
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">Պատկերասրահ</h1>
+            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">Մեր ձեռագործ քաղցրավենիքների, հարմարավետ պահերի և երջանիկ հաճախորդների կադրերը՝ մոտիկից դիտարկելու համար։</p>
           </div>
         </section>
 
