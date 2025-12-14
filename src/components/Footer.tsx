@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Coffee, Instagram, Facebook, MapPin, Phone, Mail, Heart } from "lucide-react";
-import logo from "@/assets/logo.svg";
+// Use the favicon from `public/` as the site logo for consistency
+const faviconPath = "/favicon.jpg";
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center gap-3">
-              <img src={logo} alt="Shamam logo" className="w-10 h-10 rounded-full object-cover" />
+              <img src={faviconPath} alt="Shamam logo" className="w-10 h-10 rounded-full object-cover" />
               <span className="font-display text-3xl text-card">Շամամ</span>
             </Link>
             <p className="font-body text-card/70 leading-relaxed">

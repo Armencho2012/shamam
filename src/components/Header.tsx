@@ -2,7 +2,8 @@ import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
 import { Menu, X, Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import logo from "@/assets/logo.svg";
+// Use the favicon from `public/` as the site logo for consistency
+const faviconPath = "/favicon.jpg";
 
 const navLinks = [
   { name: "Գլխավոր", path: "/" },
@@ -22,7 +23,7 @@ export const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <img src={logo} alt="Shamam logo" className="w-10 h-10 rounded-full object-cover" />
+            <img src={faviconPath} alt="Shamam logo" className="w-10 h-10 rounded-full object-cover" />
             <span className="font-display text-2xl md:text-3xl text-foreground">Շամամ</span>
           </Link>
 
