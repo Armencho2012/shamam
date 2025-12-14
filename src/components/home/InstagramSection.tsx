@@ -1,4 +1,5 @@
 import { Instagram } from "lucide-react";
+<<<<<<< HEAD
 import macaronsImage from "@/assets/image (1).png";
 import croissantsImage from "@/assets/image (2).png";
 import baklavaImage from "@/assets/image (3).png";
@@ -13,6 +14,22 @@ const instagramPosts = [
   { image: coffeeImage, alt: "Հատուկ լատտե արվեստ" },
   { image: cafeInterior, alt: "Հարմարավետ սրճարանի ինտերիեր" },
   { image: macaronRose, alt: "Վարդի մակարոն" },
+=======
+import macaronsImage from "@/assets/macarons-display.jpg";
+import croissantsImage from "@/assets/croissants.jpg";
+import baklavaImage from "@/assets/baklava.jpg";
+import coffeeImage from "@/assets/coffee.jpg";
+import cafeInterior from "@/assets/cafe-interior.jpg";
+import macaronRose from "@/assets/macaron-rose.jpg";
+
+const instagramPosts = [
+  { image: macaronsImage, alt: "Colorful macarons display" },
+  { image: croissantsImage, alt: "Fresh croissants" },
+  { image: baklavaImage, alt: "Traditional baklava" },
+  { image: coffeeImage, alt: "Specialty latte art" },
+  { image: cafeInterior, alt: "Cozy café interior" },
+  { image: macaronRose, alt: "Rose macaron" },
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
 ];
 
 export const InstagramSection = () => {
@@ -26,10 +43,17 @@ export const InstagramSection = () => {
             <span className="font-body text-sm font-medium text-foreground">@shamamsmacarons</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
+<<<<<<< HEAD
             Հետևեք մեր քաղցր ճանապարհին
           </h2>
           <p className="font-body text-muted-foreground">
             Նշեք մեզ ձեր լուսանկարներում և կիսվեք ձեր սիրելի պահերով Շամամում
+=======
+            Follow Our Sweet Journey
+          </h2>
+          <p className="font-body text-muted-foreground">
+            Tag us in your photos and share your favorite moments at Shamam's
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
           </p>
         </div>
 

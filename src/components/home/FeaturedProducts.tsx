@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import macaronsImage from "@/assets/image (1).png";
 import croissantsImage from "@/assets/image (2).png";
 import baklavaImage from "@/assets/image (3).png";
@@ -7,24 +8,50 @@ const featuredProducts = [
   {
     name: "Ազնվական Մակարոններ",
     description: "Նուրբ ֆրանսիական մակարոններ տարբեր հոտավետ համերով — վարդ, պիստակ, մանուշակ և կիտրոն։",
+=======
+import macaronsImage from "@/assets/macarons-display.jpg";
+import croissantsImage from "@/assets/croissants.jpg";
+import baklavaImage from "@/assets/baklava.jpg";
+import coffeeImage from "@/assets/coffee.jpg";
+
+const featuredProducts = [
+  {
+    name: "Signature Macarons",
+    description: "Delicate French macarons in rainbow flavors — rose, pistachio, lavender, and lemon.",
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     image: macaronsImage,
     color: "bg-primary/20",
   },
   {
+<<<<<<< HEAD
     name: "Կարագային Կրուասաններ",
     description: "Փխրուն, ոսկեգույն կատարելություն, թխված թանկարժեք ֆրանսիական կարագով ամեն առավոտ։",
+=======
+    name: "Buttery Croissants",
+    description: "Flaky, golden perfection baked fresh every morning with premium French butter.",
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     image: croissantsImage,
     color: "bg-highlight/30",
   },
   {
+<<<<<<< HEAD
     name: "Ավանդական Բակլավա",
     description: "Մատաղ փխրուն շերտեր, մեղր և պիստակ — մեր ընտանեկան բաղադրատոմսը սերնդեսերունդ։",
+=======
+    name: "Traditional Baklava",
+    description: "Layers of crispy phyllo, honey, and pistachios — our family recipe passed down generations.",
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     image: baklavaImage,
     color: "bg-secondary/50",
   },
   {
+<<<<<<< HEAD
     name: "Հատուկ Սուրճ",
     description: "Արվեստագետի ձեռքով պատրաստված էսպրեսսո և լատտե արվեստ տեղական տորֆով հատիկներից։",
+=======
+    name: "Specialty Coffee",
+    description: "Artisan espresso and latte art crafted with locally roasted beans.",
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
     image: coffeeImage,
     color: "bg-accent/30",
   },
@@ -37,6 +64,7 @@ export const FeaturedProducts = () => {
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block font-body text-sm font-semibold text-primary uppercase tracking-wider mb-4">
+<<<<<<< HEAD
             Մեր Հատուկ Տեսականին
           </span>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
@@ -44,6 +72,15 @@ export const FeaturedProducts = () => {
           </h2>
           <p className="font-body text-muted-foreground text-lg">
             Շամամի յուրաքանչյուր քաղցրավենիք պատրաստվում է ձեռքով՝ օգտագործելով լավագույն բաղադրիչները և մեծ սեր։
+=======
+            Our Specialties
+          </span>
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-foreground mb-6">
+            Made with Love
+          </h2>
+          <p className="font-body text-muted-foreground text-lg">
+            Every treat at Shamam's is handcrafted with the finest ingredients and a whole lot of heart.
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
           </p>
         </div>
 

@@ -4,11 +4,19 @@ import { Menu, X, Coffee } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
+<<<<<<< HEAD
   { name: "Գլխավոր", path: "/" },
   { name: "Մենյուն", path: "/menu" },
   { name: "Պատկերասրահ", path: "/gallery" },
   { name: "Այցելեք մեզ", path: "/visit" },
   { name: "Կապ", path: "/contact" },
+=======
+  { name: "Home", path: "/" },
+  { name: "Menu", path: "/menu" },
+  { name: "Gallery", path: "/gallery" },
+  { name: "Visit Us", path: "/visit" },
+  { name: "Contact", path: "/contact" },
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
 ];
 
 export const Header = () => {
@@ -25,7 +33,11 @@ export const Header = () => {
               <Coffee className="w-5 h-5 text-primary" />
             </div>
             <span className="font-display text-2xl md:text-3xl text-foreground">
+<<<<<<< HEAD
               Շամամ
+=======
+              Shamam's
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
             </span>
           </Link>
 
@@ -49,7 +61,11 @@ export const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="hero" size="default" asChild>
+<<<<<<< HEAD
               <Link to="/contact">Պատվիրել հիմա</Link>
+=======
+              <Link to="/contact">Order Now</Link>
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
             </Button>
           </div>
 
@@ -57,7 +73,11 @@ export const Header = () => {
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="md:hidden p-2 rounded-lg hover:bg-muted transition-colors"
+<<<<<<< HEAD
             aria-label="Մենյուն բացել/փակել"
+=======
+            aria-label="Toggle menu"
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
           >
             {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
           </button>
@@ -83,7 +103,11 @@ export const Header = () => {
               ))}
               <Button variant="hero" size="lg" className="mt-2" asChild>
                 <Link to="/contact" onClick={() => setIsMenuOpen(false)}>
+<<<<<<< HEAD
                   Պատվիրել հիմա
+=======
+                  Order Now
+>>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                 </Link>
               </Button>
             </div>
