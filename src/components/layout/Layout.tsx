@@ -163,9 +163,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
   const navLinks = [
     { path: '/', label: 'Գլխավոր' },
-    { path: '/menu', label: 'Մենյու' },
-    { path: '/gallery', label: 'Պատկերասրահ' },
-    { path: '/visit', label: 'Մեր մասին' },
+        { path: '/menu', label: 'Մենյու' },
+        { path: '/visit', label: 'Մեր մասին' },
     { path: '/contact', label: 'Կապ' },
   ];
 

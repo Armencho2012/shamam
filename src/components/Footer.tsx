@@ -47,11 +47,6 @@ export const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/gallery" className="text-card/70 hover:text-primary transition-colors">
-                  Պատկերասրահ
-                </Link>
-              </li>
-              <li>
                 <Link to="/visit" className="text-card/70 hover:text-primary transition-colors">
                   Այցելեք մեզ
                 </Link>

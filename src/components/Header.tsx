@@ -8,7 +8,6 @@ const faviconPath = "/favicon.jpg";
 const navLinks = [
   { name: "Գլխավոր", path: "/" },
   { name: "Մենյուն", path: "/menu" },
-  { name: "Պատկերասրահ", path: "/gallery" },
   { name: "Այցելեք մեզ", path: "/visit" },
   { name: "Կապ", path: "/contact" },
 ];

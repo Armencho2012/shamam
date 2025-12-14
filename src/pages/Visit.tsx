@@ -10,7 +10,7 @@ const Visit = () => {
         {/* Page Header */}
         <section className="py-16 md:py-24 bg-gradient-to-br from-secondary/10 via-primary/5 to-accent/10">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">Այցելեք אותנו</h1>
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">Այցելեք մեզ</h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">Մենք սիրով հրավիրում ենք Ձեզ մեր հարմարավետ անկյունը Վանաձորում։ Բերեք երեխաներին՝ վայելելու քաղցրավենիքները և տնային ջերմությունը։</p>
           </div>
         </section>
