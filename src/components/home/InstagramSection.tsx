@@ -1,10 +1,10 @@
 import { Instagram } from "lucide-react";
-import macaronsImage from "@/assets/macarons-display.jpg";
-import croissantsImage from "@/assets/croissants.jpg";
-import baklavaImage from "@/assets/baklava.jpg";
-import coffeeImage from "@/assets/coffee.jpg";
-import cafeInterior from "@/assets/cafe-interior.jpg";
-import macaronRose from "@/assets/macaron-rose.jpg";
+import macaronsImage from "@/assets/image (1).png";
+import croissantsImage from "@/assets/image (2).png";
+import baklavaImage from "@/assets/image (3).png";
+import coffeeImage from "@/assets/image (4).png";
+import cafeInterior from "@/assets/image (5).png";
+import macaronRose from "@/assets/image (6).png";
 
 const instagramPosts = [
   { image: macaronsImage, alt: "Գունավոր մակարոնների ցուցադրություն" },

@@ -1,13 +1,13 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { Sparkles } from "lucide-react";
-import macaronsImage from "@/assets/macarons-display.jpg";
-import croissantsImage from "@/assets/croissants.jpg";
-import baklavaImage from "@/assets/baklava.jpg";
-import coffeeImage from "@/assets/coffee.jpg";
-import macaronRose from "@/assets/macaron-rose.jpg";
-import macaronPistachio from "@/assets/macaron-pistachio.jpg";
-import macaronLavender from "@/assets/macaron-lavender.jpg";
+import macaronsImage from "@/assets/image (1).png";
+import croissantsImage from "@/assets/image (2).png";
+import baklavaImage from "@/assets/image (3).png";
+import coffeeImage from "@/assets/image (4).png";
+import macaronRose from "@/assets/image (6).png";
+import macaronPistachio from "@/assets/image (7).png";
+import macaronLavender from "@/assets/image (8).png";
 
 interface MenuItem {
   name: string;

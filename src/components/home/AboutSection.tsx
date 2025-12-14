@@ -1,4 +1,4 @@
-import cafeInterior from "@/assets/baklava.jpg";
+import cafeInterior from "@/assets/image (5).png";
 
 export const AboutSection = () => {
   return (
