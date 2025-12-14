@@ -20,24 +20,24 @@ const NotFound = () => {
 
         {/* Message */}
         <h1 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-          Oops! Page Not Found
+          Էջը չի գտնվել
         </h1>
         <p className="font-body text-muted-foreground mb-8">
-          Looks like this page got lost in the oven! Don't worry, our macarons are still here waiting for you.
+          Կատարված է սխալ, այս էջը կարծես թխվելիս կորել է։ Մի անհանգստացեք՝ մեր մակարոնները դեռ սպասում են ձեզ։
         </p>
 
         {/* Actions */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button variant="hero" size="lg" asChild>
-            <Link to="/">
+              <Link to="/">
               <Home className="w-4 h-4 mr-2" />
-              Back to Home
+              Վերադառնալ գլխավոր էջ
             </Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link to="/menu">
+              <Link to="/menu">
               <ArrowLeft className="w-4 h-4 mr-2" />
-              View Our Menu
+              Տեսնել մեր մենյուն
             </Link>
           </Button>
         </div>

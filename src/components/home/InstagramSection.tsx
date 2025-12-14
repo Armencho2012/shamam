@@ -7,12 +7,12 @@ import cafeInterior from "@/assets/cafe-interior.jpg";
 import macaronRose from "@/assets/macaron-rose.jpg";
 
 const instagramPosts = [
-  { image: macaronsImage, alt: "Colorful macarons display" },
-  { image: croissantsImage, alt: "Fresh croissants" },
-  { image: baklavaImage, alt: "Traditional baklava" },
-  { image: coffeeImage, alt: "Specialty latte art" },
-  { image: cafeInterior, alt: "Cozy café interior" },
-  { image: macaronRose, alt: "Rose macaron" },
+  { image: macaronsImage, alt: "Գունավոր մակարոնների ցուցադրություն" },
+  { image: croissantsImage, alt: "Թարմ կրուասաններ" },
+  { image: baklavaImage, alt: "Ավանդական բաղլավա" },
+  { image: coffeeImage, alt: "Հատուկ լատտե արվեստ" },
+  { image: cafeInterior, alt: "Հարմարավետ սրճարանի ինտերիեր" },
+  { image: macaronRose, alt: "Վարդի մակարոն" },
 ];
 
 export const InstagramSection = () => {
@@ -26,10 +26,10 @@ export const InstagramSection = () => {
             <span className="font-body text-sm font-medium text-foreground">@shamamsmacarons</span>
           </div>
           <h2 className="font-display text-4xl md:text-5xl text-foreground mb-4">
-            Follow Our Sweet Journey
+            Հետևեք մեր քաղցր ճանապարհին
           </h2>
           <p className="font-body text-muted-foreground">
-            Tag us in your photos and share your favorite moments at Shamam's
+            Նշեք մեզ ձեր լուսանկարներում և կիսվեք ձեր սիրելի պահերով Շամամում
           </p>
         </div>
 

@@ -12,10 +12,10 @@ export const Footer = () => {
               <div className="w-10 h-10 rounded-full bg-primary/30 flex items-center justify-center">
                 <Coffee className="w-5 h-5 text-primary" />
               </div>
-              <span className="font-display text-3xl text-card">Shamam's</span>
+              <span className="font-display text-3xl text-card">Շամամ</span>
             </Link>
             <p className="font-body text-card/70 leading-relaxed">
-              Every dessert is made with love. Join us for a sweet moment of comfort in the heart of Vanadzor.
+              Յուրաքանչյուր հրուշակորաք պատրաստվում է սիրով։ Միացեք մեզ Վանաձորի սրտում քաղցր ու ջերմ պահի համար։
             </p>
             <div className="flex gap-3">
               <a
@@ -39,26 +39,26 @@ export const Footer = () => {
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h3 className="font-display text-2xl">Quick Links</h3>
+            <h3 className="font-display text-2xl">Արագ հղումներ</h3>
             <ul className="space-y-2 font-body">
               <li>
                 <Link to="/menu" className="text-card/70 hover:text-primary transition-colors">
-                  Our Menu
+                  Մեր մենյուն
                 </Link>
               </li>
               <li>
                 <Link to="/gallery" className="text-card/70 hover:text-primary transition-colors">
-                  Gallery
+                  Պատկերասրահ
                 </Link>
               </li>
               <li>
                 <Link to="/visit" className="text-card/70 hover:text-primary transition-colors">
-                  Visit Us
+                  Այցելեք մեզ
                 </Link>
               </li>
               <li>
                 <Link to="/contact" className="text-card/70 hover:text-primary transition-colors">
-                  Contact
+                  Կապ
                 </Link>
               </li>
             </ul>
@@ -66,11 +66,11 @@ export const Footer = () => {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h3 className="font-display text-2xl">Contact Us</h3>
+            <h3 className="font-display text-2xl">Կապվել մեզ հետ</h3>
             <ul className="space-y-3 font-body">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-card/70">Myasnikyan 19, Vanadzor, Armenia</span>
+                <span className="text-card/70">Մյասնիկյան 19, Վանաձոր, Հայաստան</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-primary flex-shrink-0" />
@@ -89,18 +89,18 @@ export const Footer = () => {
 
           {/* Hours */}
           <div className="space-y-4">
-            <h3 className="font-display text-2xl">Opening Hours</h3>
+            <h3 className="font-display text-2xl">Բացման ժամեր</h3>
             <ul className="space-y-2 font-body text-card/70">
               <li className="flex justify-between">
-                <span>Monday - Friday</span>
+                <span>Երկուշաբթի - Ուրբաթ</span>
                 <span>9:00 - 20:00</span>
               </li>
               <li className="flex justify-between">
-                <span>Saturday</span>
+                <span>Շաբաթ</span>
                 <span>10:00 - 21:00</span>
               </li>
               <li className="flex justify-between">
-                <span>Sunday</span>
+                <span>Կիրակի</span>
                 <span>10:00 - 19:00</span>
               </li>
             </ul>
@@ -110,11 +110,11 @@ export const Footer = () => {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-card/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-            <p className="font-body text-card/50 text-sm flex items-center gap-1">
-              Made with <Heart className="w-4 h-4 text-primary fill-primary" /> in Vanadzor
+              <p className="font-body text-card/50 text-sm flex items-center gap-1">
+              Սիրով պատրաստված՝ <Heart className="w-4 h-4 text-primary fill-primary" /> Վանաձորում
             </p>
             <p className="font-body text-card/50 text-sm">
-              © {new Date().getFullYear()} Shamam's Macarons. All rights reserved.
+              © {new Date().getFullYear()} Shamam's Macarons. Բոլոր իրավունքները պաշտպանված են.
             </p>
           </div>
         </div>

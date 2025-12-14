@@ -11,10 +11,10 @@ const Visit = () => {
         <section className="py-16 md:py-24 bg-gradient-to-br from-secondary/10 via-primary/5 to-accent/10">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-              Visit Us
+              Այցելեք մեզ
             </h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              We'd love to welcome you to our cozy corner of Vanadzor. Come for the sweets, stay for the warmth.
+              Մենք սիրով ընդունում ենք ձեզ մեր հարմարավետ անկյունում Վանաձորում։ Տեսեք քաղցրավենիքները ու զգացեք ջերմությունը։
             </p>
           </div>
         </section>
@@ -47,7 +47,7 @@ const Visit = () => {
                       <MapPin className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-                      <h3 className="font-display text-2xl text-foreground mb-2">Address</h3>
+                      <h3 className="font-display text-2xl text-foreground mb-2">Հասցե</h3>
                       <p className="font-body text-muted-foreground">
                         Myasnikyan 19<br />
                         Vanadzor, Armenia
@@ -59,7 +59,7 @@ const Visit = () => {
                         className="inline-flex items-center gap-2 text-primary font-body font-medium mt-3 hover:underline"
                       >
                         <Navigation className="w-4 h-4" />
-                        Get Directions
+                        Ցուցադրել երթուղին
                       </a>
                     </div>
                   </div>
@@ -72,7 +72,7 @@ const Visit = () => {
                       <Phone className="w-6 h-6 text-foreground" />
                     </div>
                     <div>
-                      <h3 className="font-display text-2xl text-foreground mb-2">Phone</h3>
+                      <h3 className="font-display text-2xl text-foreground mb-2">Հեռախոս</h3>
                       <a
                         href="tel:+37493788083"
                         className="font-body text-lg text-primary hover:underline"
@@ -80,7 +80,7 @@ const Visit = () => {
                         +374 93 788 083
                       </a>
                       <p className="font-body text-sm text-muted-foreground mt-1">
-                        Call us for orders, reservations, or inquiries
+                        Զանգահարեք պատվերների, ռեզերվացիաների կամ հարցումների համար
                       </p>
                     </div>
                   </div>
@@ -93,19 +93,19 @@ const Visit = () => {
                       <Clock className="w-6 h-6 text-foreground" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="font-display text-2xl text-foreground mb-4">Opening Hours</h3>
+                      <h3 className="font-display text-2xl text-foreground mb-4">Բացման ժամեր</h3>
                       <div className="space-y-2">
                         <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Monday - Friday</span>
-                          <span className="text-foreground font-medium">9:00 AM - 8:00 PM</span>
+                          <span className="text-muted-foreground">Երկուշաբթի - Ուրբաթ</span>
+                          <span className="text-foreground font-medium">9:00 - 20:00</span>
                         </div>
                         <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Saturday</span>
-                          <span className="text-foreground font-medium">10:00 AM - 9:00 PM</span>
+                          <span className="text-muted-foreground">Շաբաթ</span>
+                          <span className="text-foreground font-medium">10:00 - 21:00</span>
                         </div>
                         <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Sunday</span>
-                          <span className="text-foreground font-medium">10:00 AM - 7:00 PM</span>
+                          <span className="text-muted-foreground">Կիրակի</span>
+                          <span className="text-foreground font-medium">10:00 - 19:00</span>
                         </div>
                       </div>
                     </div>
@@ -114,23 +114,23 @@ const Visit = () => {
 
                 {/* How to Get Here */}
                 <div className="bg-gradient-to-r from-highlight/20 to-secondary/20 rounded-2xl p-6 border border-highlight/30">
-                  <h3 className="font-display text-2xl text-foreground mb-4">How to Get Here</h3>
+                  <h3 className="font-display text-2xl text-foreground mb-4">Ինչպես հասնել</h3>
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
                       <Bus className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       <div>
-                        <p className="font-body font-medium text-foreground">By Bus</p>
+                        <p className="font-body font-medium text-foreground">Ավտոբուսով</p>
                         <p className="font-body text-sm text-muted-foreground">
-                          Take routes 3, 7, or 12 to "Central Square" stop. We're a 2-minute walk from there.
+                          Օգտագործեք 3, 7 կամ 12 երթուղիները՝ կանգառով «Կենտրոնական հրապարակ»։ Մեզանից 2 րոպե քայլ է այնտեղից։
                         </p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Car className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       <div>
-                        <p className="font-body font-medium text-foreground">By Car</p>
+                        <p className="font-body font-medium text-foreground">Ավտոմեքենայով</p>
                         <p className="font-body text-sm text-muted-foreground">
-                          Free street parking available on Myasnikyan Street. Look for the pink awning!
+                          Վճարային փողոցային կայանատեղի է Մյասնիկյան փողոցում։ Փնտրեք վարդագույն մարկիզը։
                         </p>
                       </div>
                     </div>

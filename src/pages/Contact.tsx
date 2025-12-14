@@ -22,8 +22,8 @@ const Contact = () => {
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
     toast({
-      title: "Message sent!",
-      description: "Thank you for reaching out. We'll get back to you soon!",
+      title: "Հաղորդագրությունը ուղարկված է!",
+      description: "Շատ շնորհակալ ենք, մենք շուտով կհետադարձանք ձեզ։",
     });
 
     setFormData({ name: "", email: "", message: "" });
@@ -47,10 +47,10 @@ const Contact = () => {
         <section className="py-16 md:py-24 bg-gradient-to-br from-primary/10 via-secondary/5 to-accent/10">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-              Get in Touch
+              Կապվել մեզ հետ
             </h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Send us a message or order your favorite sweets. We'd love to hear from you!
+              Ուղարկեք մեզ հաղորդագրություն կամ պատվիրեք ձեր սիրելի քաղցրավենիքները։ Մենք սիրով սպասում ենք ձեր հարցերին։
             </p>
           </div>
         </section>
@@ -62,7 +62,7 @@ const Contact = () => {
               {/* Contact Form */}
               <div>
                 <h2 className="font-display text-3xl md:text-4xl text-foreground mb-8">
-                  Send a Message
+                  Ուղարկել հաղորդագրություն
                 </h2>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div>
@@ -70,7 +70,7 @@ const Contact = () => {
                       htmlFor="name"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-                      Your Name
+                      Ձեր անունը
                     </label>
                     <input
                       type="text"
@@ -81,7 +81,7 @@ const Contact = () => {
                       required
                       maxLength={100}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                      placeholder="What should we call you?"
+                      placeholder="Ինչ անունով դիմենք ձեզ?"
                     />
                   </div>
                   <div>
@@ -89,7 +89,7 @@ const Contact = () => {
                       htmlFor="email"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-                      Email Address
+                      Էլ. հասցե
                     </label>
                     <input
                       type="email"
@@ -100,7 +100,7 @@ const Contact = () => {
                       required
                       maxLength={255}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all"
-                      placeholder="your@email.com"
+                      placeholder="e.g. you@example.com"
                     />
                   </div>
                   <div>
@@ -108,7 +108,7 @@ const Contact = () => {
                       htmlFor="message"
                       className="block font-body font-medium text-foreground mb-2"
                     >
-                      Your Message
+                      Ձեր հաղորդագրությունը
                     </label>
                     <textarea
                       id="message"
@@ -119,7 +119,7 @@ const Contact = () => {
                       maxLength={1000}
                       rows={6}
                       className="w-full px-4 py-3 rounded-xl border border-border bg-card font-body text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition-all resize-none"
-                      placeholder="Tell us about your order, question, or just say hello..."
+                      placeholder="Նշեք ձեր պատվերը, հարցը կամ պարզապես ողջույն ուղարկեք..."
                     />
                   </div>
                   <Button
@@ -130,11 +130,11 @@ const Contact = () => {
                     className="w-full sm:w-auto"
                   >
                     {isSubmitting ? (
-                      "Sending..."
+                      "Ուղարկվում..."
                     ) : (
                       <>
                         <Send className="w-4 h-4 mr-2" />
-                        Send Message
+                        Ուղարկել հաղորդագրություն
                       </>
                     )}
                   </Button>
@@ -144,7 +144,7 @@ const Contact = () => {
               {/* Contact Info */}
               <div className="space-y-8">
                 <h2 className="font-display text-3xl md:text-4xl text-foreground mb-8">
-                  Other Ways to Reach Us
+                  Այլ կապի միջոցներ
                 </h2>
 
                 <div className="space-y-6">
@@ -155,7 +155,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-body font-semibold text-foreground mb-1">
-                        Call Us
+                        Զանգահարեք մեզ
                       </h3>
                       <a
                         href="tel:+37493788083"
@@ -164,7 +164,7 @@ const Contact = () => {
                         +374 93 788 083
                       </a>
                       <p className="font-body text-sm text-muted-foreground mt-1">
-                        Available during opening hours
+                        Առկա է աշխատանքային ժամերին
                       </p>
                     </div>
                   </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-body font-semibold text-foreground mb-1">
-                        Email Us
+                        Մենք էլեկտրոնային
                       </h3>
                       <a
                         href="mailto:hello@shamams.am"
@@ -185,7 +185,7 @@ const Contact = () => {
                         hello@shamams.am
                       </a>
                       <p className="font-body text-sm text-muted-foreground mt-1">
-                        We respond within 24 hours
+                        Պատասխանել ենք 24 ժամվա ընթացքում
                       </p>
                     </div>
                   </div>
@@ -197,13 +197,13 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-body font-semibold text-foreground mb-1">
-                        Visit Us
+                        Այցելեք մեզ
                       </h3>
                       <p className="font-body text-muted-foreground">
-                        Myasnikyan 19, Vanadzor
+                        Մյասնիկյան 19, Վանաձոր
                       </p>
                       <p className="font-body text-sm text-muted-foreground mt-1">
-                        Mon-Fri 9-8, Sat 10-9, Sun 10-7
+                        Երկ.-Ուր. 9:00 - 20:00, Շբ. 10:00 - 21:00, Կր. 10:00 - 19:00
                       </p>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ const Contact = () => {
                       className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full font-body text-foreground hover:from-primary/30 hover:to-accent/30 transition-all"
                     >
                       <Instagram className="w-5 h-5" />
-                      Instagram
+                      Ինստագրամ
                     </a>
                     <a
                       href="https://facebook.com"
@@ -231,7 +231,7 @@ const Contact = () => {
                       className="flex items-center gap-2 px-5 py-3 bg-muted rounded-full font-body text-foreground hover:bg-muted/80 transition-all"
                     >
                       <Facebook className="w-5 h-5" />
-                      Facebook
+                      Ֆեյսբուք
                     </a>
                   </div>
                 </div>

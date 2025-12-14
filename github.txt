@@ -1,0 +1,71 @@
+# GitHub push & PR commands
+
+This file contains step-by-step commands you can run to push changes to GitHub and open a Pull Request. Replace values like <your-name> and <your-email> where appropriate.
+
+1) Configure Git user (optional - only if you want to override global settings):
+
+```bash
+git config user.name "Your Name"
+git config user.email "you@example.com"
+```
+
+2) Create and switch to a branch for your changes (recommended):
+
+```bash
+# from project root
+git checkout -b translate-arm
+```
+
+3) See status and stage files:
+
+```bash
+git status
+git add -A
+```
+
+4) Commit your changes:
+
+```bash
+git commit -m "Translate UI strings to Armenian and add github.txt"
+```
+
+5) Add remote if not already present (only if you haven't added it before):
+
+```bash
+git remote add origin https://github.com/Armencho2012/shamam-s-sweet-spot.git
+```
+
+6) Push branch to GitHub and set upstream:
+
+```bash
+git push -u origin translate-arm
+```
+
+7) Open a Pull Request (recommended) via GitHub website or use GitHub CLI:
+
+```bash
+# if you have gh installed
+gh auth login
+gh pr create --base main --head translate-arm --title "Translate UI to Armenian" --body "Translate all user-facing text to Armenian and add github commands file"
+```
+
+8) To update the branch after more edits:
+
+```bash
+git add -A
+git commit -m "More Armenian translations"
+git push
+```
+
+9) (Dangerous) If you want to force overwrite the remote main branch with your local main (DO NOT DO THIS unless you are absolutely sure):
+
+```bash
+git checkout -b main
+git add -A
+git commit -m "Overwrite remote main with local"
+git push -u origin main --force
+```
+
+---
+
+If you want, I can run these commands for you (create branch, commit, push, and open a PR). Reply "Please push and open PR" and I'll proceed.

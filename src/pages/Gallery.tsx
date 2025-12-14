@@ -18,21 +18,21 @@ interface GalleryImage {
 }
 
 const galleryImages: GalleryImage[] = [
-  { src: heroImage, alt: "Shamam's bakery interior with macarons display", category: "Interior" },
-  { src: macaronsImage, alt: "Colorful French macarons", category: "Macarons" },
-  { src: macaronRose, alt: "Rose flavored macaron", category: "Macarons" },
-  { src: macaronPistachio, alt: "Pistachio macaron", category: "Macarons" },
-  { src: macaronLavender, alt: "Lavender macaron", category: "Macarons" },
-  { src: croissantsImage, alt: "Fresh buttery croissants", category: "Pastries" },
-  { src: baklavaImage, alt: "Traditional Armenian baklava", category: "Pastries" },
-  { src: coffeeImage, alt: "Specialty latte art", category: "Coffee" },
-  { src: cafeInterior, alt: "Cozy café atmosphere", category: "Interior" },
+  { src: heroImage, alt: "Շամամի ներքին տեսք՝ մակարոնների ցուցադրությամբ", category: "Ներս" },
+  { src: macaronsImage, alt: "Գունավոր ֆրանսիական մակարոններ", category: "Մակարոններ" },
+  { src: macaronRose, alt: "Վարդի համով մակարոն", category: "Մակարոններ" },
+  { src: macaronPistachio, alt: "Փիստաչիով մակարոն", category: "Մակարոններ" },
+  { src: macaronLavender, alt: "Լավանդայի մակարոն", category: "Մակարոններ" },
+  { src: croissantsImage, alt: "Թարմ կարագով կրուասաններ", category: "Թխվածքներ" },
+  { src: baklavaImage, alt: "Ավանդական բաղլավա", category: "Թխվածքներ" },
+  { src: coffeeImage, alt: "Հատուկ լատտե արվեստ", category: "Սուրճ" },
+  { src: cafeInterior, alt: "Հարմարավետ սրճարանի ինտերիեր", category: "Ներս" },
 ];
 
-const categories = ["All", "Macarons", "Pastries", "Coffee", "Interior"];
+const categories = ["Բոլորը", "Մակարոններ", "Թխվածքներ", "Սուրճ", "Ներս"];
 
 const Gallery = () => {
-  const [activeCategory, setActiveCategory] = useState("All");
+  const [activeCategory, setActiveCategory] = useState("Բոլորը");
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
 
   const filteredImages =
@@ -48,10 +48,10 @@ const Gallery = () => {
         <section className="py-16 md:py-24 bg-gradient-to-br from-accent/10 via-primary/5 to-secondary/10">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-              Gallery
+              Պատկերասրահ
             </h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              A glimpse into our world of handcrafted sweets, cozy moments, and happy customers.
+              Մեր ձեռագործ քաղցրավենիքների, հարմարավետ պահերի և երջանիկ հաճախորդների կադրեր։
             </p>
           </div>
         </section>

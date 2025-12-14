@@ -25,64 +25,64 @@ interface MenuCategory {
 
 const menuCategories: MenuCategory[] = [
   {
-    title: "Macarons",
+    title: "Մակարոններ",
     icon: "🍥",
     color: "bg-primary/10 border-primary/20",
     items: [
-      { name: "Rose", description: "Delicate floral notes with raspberry buttercream", price: "500 AMD", image: macaronRose },
-      { name: "Pistachio", description: "Rich pistachio ganache with a hint of almond", price: "500 AMD", image: macaronPistachio },
-      { name: "Lavender", description: "Soothing lavender infused with honey cream", price: "500 AMD", image: macaronLavender },
-      { name: "Lemon", description: "Bright citrus curd with vanilla cream", price: "500 AMD" },
-      { name: "Chocolate", description: "Belgian dark chocolate with hazelnut", price: "500 AMD" },
-      { name: "Salted Caramel", description: "Buttery caramel with fleur de sel", price: "550 AMD" },
-      { name: "Macaron Box (6 pcs)", description: "Chef's selection of seasonal flavors", price: "2,800 AMD", image: macaronsImage },
-      { name: "Macaron Box (12 pcs)", description: "Perfect gift with assorted flavors", price: "5,400 AMD" },
+      { name: "Վարդ", description: "Թեթև ծաղկային նոտաներ՝ ազնվաբուս աստառային պանրով", price: "500 AMD", image: macaronRose },
+      { name: "Փիստաչի", description: "Բաղադրիչ փիստաչի գանին՝ ձիթապտղի համով", price: "500 AMD", image: macaronPistachio },
+      { name: "Լավանդա", description: "Լավանդայի մեղմ համ՝ մեղրով պատճենավոր կրեմ", price: "500 AMD", image: macaronLavender },
+      { name: "Լիմոն", description: "Կիպ կիտրոնային կարդ՝ վանիլային կրեմով", price: "500 AMD" },
+      { name: "Շոկոլադ", description: "Բելգիական մուգ շոկոլադ՝ ընկուզեղենի նշմարներով", price: "500 AMD" },
+      { name: "Աղով Կարամել", description: "Կարագային կարամել՝ ծովատաղի աղով", price: "550 AMD" },
+      { name: "Մակարոնների տուփ (6 հատ)", description: "Խոհարարի ընտրանիը՝ եղանակային համերով", price: "2,800 AMD", image: macaronsImage },
+      { name: "Մակարոնների տուփ (12 հատ)", description: "Իդեալական նվեր՝ քանակավոր համերով", price: "5,400 AMD" },
     ],
   },
   {
-    title: "Croissants",
+    title: "Կրուասաններ",
     icon: "🥐",
     color: "bg-highlight/20 border-highlight/30",
     items: [
-      { name: "Classic Butter", description: "Pure French butter, flaky layers", price: "800 AMD", image: croissantsImage },
-      { name: "Almond", description: "Filled with almond cream, topped with sliced almonds", price: "1,200 AMD" },
-      { name: "Chocolate", description: "Belgian chocolate batons in buttery layers", price: "1,000 AMD" },
-      { name: "Ham & Cheese", description: "Savory croissant with premium ham and gruyère", price: "1,500 AMD" },
-      { name: "Croissant Sandwich", description: "Eggs, avocado, and seasonal vegetables", price: "1,800 AMD" },
+      { name: "Կլասիկ կարագով", description: "Ամենագերային ֆրանսիական կարագ, փխրուն շերտեր", price: "800 AMD", image: croissantsImage },
+      { name: "Նուշով", description: "Լցված նուշի կրեմով, վերևը՝ նուշի կտրտածքով", price: "1,200 AMD" },
+      { name: "Շոկոլադով", description: "Բելգիական շոկոլադային շերտեր", price: "1,000 AMD" },
+      { name: "Խոզի մսով և պանրով", description: "Համեղ կրուասան պրեմիում խոզի մսով և գրույեր պանրով", price: "1,500 AMD" },
+      { name: "Կրուասան-սենդվիչ", description: "Ձու, аваկադո և եղանակային բանջարեղեն", price: "1,800 AMD" },
     ],
   },
   {
-    title: "Baklava",
+    title: "Բաղլավա",
     icon: "🍯",
     color: "bg-secondary/20 border-secondary/30",
     items: [
-      { name: "Classic Pistachio", description: "Layers of phyllo with honey and pistachios", price: "400 AMD", image: baklavaImage },
-      { name: "Walnut Baklava", description: "Traditional walnut filling with rose syrup", price: "350 AMD" },
-      { name: "Mixed Nuts", description: "Premium blend of pistachios, walnuts & almonds", price: "450 AMD" },
-      { name: "Baklava Box (500g)", description: "Assorted baklava for sharing", price: "4,500 AMD" },
-      { name: "Baklava Box (1kg)", description: "Perfect for celebrations", price: "8,500 AMD" },
+      { name: "Դասական փիստաչի", description: "Փխրուն շերտեր՝ մեղրով և փիստակով", price: "400 AMD", image: baklavaImage },
+      { name: "Փխրուն ընկույզով", description: "Ավանդական ընկույզի շերտով՝ վարդի շաքարով", price: "350 AMD" },
+      { name: "Խառը ընկուզեղեն", description: "Փիստաչի, ընկուզեղեն և նուշի պրեմիում համախումբ", price: "450 AMD" },
+      { name: "Բաղլավայի տուփ (500գ)", description: "Խառը բաղլավա՝ բաժանելու համար", price: "4,500 AMD" },
+      { name: "Բաղլավայի տուփ (1կգ)", description: "Իդեալական տոնակատարությունների համար", price: "8,500 AMD" },
     ],
   },
   {
-    title: "Coffee & Drinks",
+    title: "Սուրճ և Օգնականներ",
     icon: "☕",
     color: "bg-accent/20 border-accent/30",
     items: [
-      { name: "Espresso", description: "Single shot of our signature blend", price: "600 AMD", image: coffeeImage },
-      { name: "Americano", description: "Espresso with hot water", price: "700 AMD" },
-      { name: "Cappuccino", description: "Espresso with steamed milk and foam", price: "900 AMD" },
-      { name: "Latte", description: "Creamy espresso with silky steamed milk", price: "1,000 AMD" },
-      { name: "Mocha", description: "Espresso, chocolate, and steamed milk", price: "1,200 AMD" },
-      { name: "Hot Chocolate", description: "Rich Belgian chocolate with cream", price: "1,000 AMD" },
-      { name: "Tea Selection", description: "Premium loose leaf teas", price: "600 AMD" },
-      { name: "Fresh Lemonade", description: "Homemade with mint", price: "800 AMD" },
+      { name: "Էսպրեսսո", description: "Մեկ մատաղ մեր ստորագրական խառնուրդից", price: "600 AMD", image: coffeeImage },
+      { name: "Ամերիկանո", description: "Էսպրեսսո՝ տաք ջրով", price: "700 AMD" },
+      { name: "Կապուչինո", description: "Էսպրեսսո՝ մածնով և կրեմով", price: "900 AMD" },
+      { name: "Լաթտե", description: "Կրեմային էսպրեսսո՝ մածնով", price: "1,000 AMD" },
+      { name: "Մոչա", description: "Էսպրեսսո, շոկոլադ և տաք մածուն", price: "1,200 AMD" },
+      { name: "Թիկս տաք շոկոլադ", description: "Բելգիական շոկոլադ՝ կրեմով", price: "1,000 AMD" },
+      { name: "Թեյերի ընտրանի", description: "Պրեմիում թերթաթիկ թեյեր", price: "600 AMD" },
+      { name: "Թարմ լիմոնադ", description: "Տնական, մաղալով", price: "800 AMD" },
     ],
   },
 ];
 
 const todaysSpecial = {
-  name: "Lavender Honey Croissant",
-  description: "Our signature butter croissant filled with lavender-infused honey cream, topped with edible flowers and a dusting of powdered sugar. A limited creation that captures the essence of spring.",
+  name: "Լավանդա-Մեղրով կրուասան",
+  description: "Մեր յուրահատուկ կարագային կրուասանը լեցուն է լավանդայով համեմված մեղրով կրեմով, զարդարված ածելուկ ծաղիկներով և գնդիկավորված շաքարավազով։ Սահմանափակ մարդասիրական առաջարկ՝ գարնան մաքրությունը պահող։",
   price: "1,400 AMD",
   image: croissantsImage,
 };
@@ -96,11 +96,10 @@ const Menu = () => {
         <section className="py-16 md:py-24 bg-gradient-to-br from-primary/10 via-accent/5 to-secondary/10">
           <div className="container mx-auto px-4 text-center">
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-              Our Menu
+              Մեր մենյուն
             </h1>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Every item is handcrafted with love, using the finest ingredients. 
-              Prices are in Armenian Dram (AMD).
+              Յուրաքանչյուր արտադրանք պատրաստվում է ձեռքով՝ լավագույն բաղադրիչներից, սիրով: Ցուցված գներ՝ ՀՀ դրամ (AMD):
             </p>
           </div>
         </section>
@@ -111,13 +110,13 @@ const Menu = () => {
             <div className="max-w-4xl mx-auto">
               <div className="flex items-center gap-2 mb-8">
                 <Sparkles className="w-6 h-6 text-highlight" />
-                <h2 className="font-display text-3xl text-foreground">Today's Special</h2>
+                <h2 className="font-display text-3xl text-foreground">Այսօրվա առաջարկը</h2>
               </div>
               <div className="bg-gradient-to-r from-highlight/20 via-primary/10 to-accent/20 rounded-3xl p-6 md:p-8 border border-highlight/30">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                   <div className="order-2 md:order-1">
                     <span className="inline-block bg-highlight/30 text-foreground px-3 py-1 rounded-full text-sm font-body font-medium mb-4">
-                      Limited Time
+                      Սահմանափակ ժամանակով
                     </span>
                     <h3 className="font-display text-3xl md:text-4xl text-foreground mb-4">
                       {todaysSpecial.name}
