@@ -10,19 +10,8 @@ const Visit = () => {
         {/* Page Header */}
         <section className="py-16 md:py-24 bg-gradient-to-br from-secondary/10 via-primary/5 to-accent/10">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">
-<<<<<<< HEAD
-              Այցելեք մեզ
-            </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              Մենք սիրով ընդունում ենք ձեզ մեր հարմարավետ անկյունում Վանաձորում։ Տեսեք քաղցրավենիքները ու զգացեք ջերմությունը։
-=======
-              Visit Us
-            </h1>
-            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">
-              We'd love to welcome you to our cozy corner of Vanadzor. Come for the sweets, stay for the warmth.
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-            </p>
+            <h1 className="font-display text-5xl md:text-6xl lg:text-7xl text-foreground mb-6">Այցելեք אותנו</h1>
+            <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto">Մենք սիրով հրավիրում ենք Ձեզ մեր հարմարավետ անկյունը Վանաձորում։ Բերեք երեխաներին՝ վայելելու քաղցրավենիքները և տնային ջերմությունը։</p>
           </div>
         </section>
 
@@ -54,28 +43,12 @@ const Visit = () => {
                       <MapPin className="w-6 h-6 text-primary" />
                     </div>
                     <div>
-<<<<<<< HEAD
                       <h3 className="font-display text-2xl text-foreground mb-2">Հասցե</h3>
-=======
-                      <h3 className="font-display text-2xl text-foreground mb-2">Address</h3>
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      <p className="font-body text-muted-foreground">
-                        Myasnikyan 19<br />
-                        Vanadzor, Armenia
-                      </p>
-                      <a
-                        href="https://maps.google.com/?q=Myasnikyan+19,+Vanadzor,+Armenia"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 text-primary font-body font-medium mt-3 hover:underline"
-                      >
-                        <Navigation className="w-4 h-4" />
-<<<<<<< HEAD
-                        Ցուցադրել երթուղին
-=======
-                        Get Directions
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+                      <p className="font-body text-muted-foreground">Մյասնիկյան 19<br />Վանաձոր, Հայաստան</p>
+                      <a href="https://maps.google.com/?q=Myasnikyan+19,+Vanadzor,+Armenia" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 text-primary font-body font-medium mt-3 hover:underline">
+                        <Navigation className="w-4 h-4" /> Ցուցադրել երթուղին
                       </a>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -87,24 +60,9 @@ const Visit = () => {
                       <Phone className="w-6 h-6 text-foreground" />
                     </div>
                     <div>
-<<<<<<< HEAD
                       <h3 className="font-display text-2xl text-foreground mb-2">Հեռախոս</h3>
-=======
-                      <h3 className="font-display text-2xl text-foreground mb-2">Phone</h3>
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      <a
-                        href="tel:+37493788083"
-                        className="font-body text-lg text-primary hover:underline"
-                      >
-                        +374 93 788 083
-                      </a>
-                      <p className="font-body text-sm text-muted-foreground mt-1">
-<<<<<<< HEAD
-                        Զանգահարեք պատվերների, ռեզերվացիաների կամ հարցումների համար
-=======
-                        Call us for orders, reservations, or inquiries
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                      </p>
+                      <a href="tel:+37493788083" className="font-body text-lg text-primary hover:underline">+374 93 788 083</a>
+                      <p className="font-body text-sm text-muted-foreground mt-1">Զանգահարեք պատվերների, ռեզերվացիաների կամ հարցումների համար</p>
                     </div>
                   </div>
                 </div>
@@ -116,7 +74,6 @@ const Visit = () => {
                       <Clock className="w-6 h-6 text-foreground" />
                     </div>
                     <div className="flex-1">
-<<<<<<< HEAD
                       <h3 className="font-display text-2xl text-foreground mb-4">Բացման ժամեր</h3>
                       <div className="space-y-2">
                         <div className="flex justify-between font-body">
@@ -130,21 +87,6 @@ const Visit = () => {
                         <div className="flex justify-between font-body">
                           <span className="text-muted-foreground">Կիրակի</span>
                           <span className="text-foreground font-medium">10:00 - 19:00</span>
-=======
-                      <h3 className="font-display text-2xl text-foreground mb-4">Opening Hours</h3>
-                      <div className="space-y-2">
-                        <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Monday - Friday</span>
-                          <span className="text-foreground font-medium">9:00 AM - 8:00 PM</span>
-                        </div>
-                        <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Saturday</span>
-                          <span className="text-foreground font-medium">10:00 AM - 9:00 PM</span>
-                        </div>
-                        <div className="flex justify-between font-body">
-                          <span className="text-muted-foreground">Sunday</span>
-                          <span className="text-foreground font-medium">10:00 AM - 7:00 PM</span>
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                         </div>
                       </div>
                     </div>
@@ -153,40 +95,20 @@ const Visit = () => {
 
                 {/* How to Get Here */}
                 <div className="bg-gradient-to-r from-highlight/20 to-secondary/20 rounded-2xl p-6 border border-highlight/30">
-<<<<<<< HEAD
                   <h3 className="font-display text-2xl text-foreground mb-4">Ինչպես հասնել</h3>
-=======
-                  <h3 className="font-display text-2xl text-foreground mb-4">How to Get Here</h3>
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
                   <div className="space-y-4">
                     <div className="flex items-start gap-3">
                       <Bus className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       <div>
-<<<<<<< HEAD
                         <p className="font-body font-medium text-foreground">Ավտոբուսով</p>
-                        <p className="font-body text-sm text-muted-foreground">
-                          Օգտագործեք 3, 7 կամ 12 երթուղիները՝ կանգառով «Կենտրոնական հրապարակ»։ Մեզանից 2 րոպե քայլ է այնտեղից։
-=======
-                        <p className="font-body font-medium text-foreground">By Bus</p>
-                        <p className="font-body text-sm text-muted-foreground">
-                          Take routes 3, 7, or 12 to "Central Square" stop. We're a 2-minute walk from there.
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                        </p>
+                        <p className="font-body text-sm text-muted-foreground">Օգտագործեք 3, 7 կամ 12 երթուղիները՝ կանգառով «Կենտրոնական հրապարակ»։ Մեզանից ընդամենը 2 րոպե քայլ է այն վայրից։</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Car className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
                       <div>
-<<<<<<< HEAD
                         <p className="font-body font-medium text-foreground">Ավտոմեքենայով</p>
-                        <p className="font-body text-sm text-muted-foreground">
-                          Վճարային փողոցային կայանատեղի է Մյասնիկյան փողոցում։ Փնտրեք վարդագույն մարկիզը։
-=======
-                        <p className="font-body font-medium text-foreground">By Car</p>
-                        <p className="font-body text-sm text-muted-foreground">
-                          Free street parking available on Myasnikyan Street. Look for the pink awning!
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
-                        </p>
+                        <p className="font-body text-sm text-muted-foreground">Կայանատեղի առկա է Մյասնիկյան փողոցում։ Պարզապես փնտրեք վարդագույն մարկիզը։</p>
                       </div>
                     </div>
                   </div>
