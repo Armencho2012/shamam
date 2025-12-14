@@ -1,20 +1,2 @@
-<<<<<<< HEAD
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
-=======
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
->>>>>>> 3a50c7ad7f96898c63c8d2bfa885c59a9444774b

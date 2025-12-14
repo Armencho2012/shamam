@@ -49,7 +49,6 @@ const Visit = () => {
                         <Navigation className="w-4 h-4" /> Ցուցադրել երթուղին
                       </a>
                     </div>
-                    </div>
                   </div>
                 </div>
 

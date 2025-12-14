@@ -38,18 +38,13 @@ export const AboutSection = () => {
 Մենք հավատում ենք, որ լավագույն աղանդերները պատրաստվում են որակյալ բաղադրիչներով, ժամանակի փորձարկված տեխնոլոգիաներով և ամենակարևորը՝ սիրով: Երբ այցելում եք Շամամ, դուք պարզապես հաճախորդ չեք, դուք մեր ընտանիքի անդամ եք:
               </p>
             </div>
-            <div className="flex items-center gap-4 pt-4">
+              <div className="flex items-center gap-4 pt-4">
               <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center">
                 <span className="font-display text-2xl text-primary">S</span>
               </div>
               <div>
-<<<<<<< HEAD
                 <p className="font-display text-xl text-foreground">Շամամների ընտանիքը</p>
-                <p className="font-body text-sm text-muted-foreground">Հիմնադիրներ և գլխավոր հրուլակներ</p>
-=======
-                <p className="font-display text-xl text-foreground">The Shamam Family</p>
-                <p className="font-body text-sm text-muted-foreground">Founders & Head Bakers</p>
->>>>>>> eea15ff7bf1f985a1a577fad511dbf173539e03c
+                <p className="font-body text-sm text-muted-foreground">Հիմնադիրներ և գլխավոր խոհարարներ</p>
               </div>
             </div>
           </div>

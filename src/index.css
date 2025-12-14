@@ -1,9 +1,8 @@
-<<<<<<< HEAD
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Nunito:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   :root {
@@ -216,5 +215,5 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
->>>>>>> 3a50c7ad7f96898c63c8d2bfa885c59a9444774b
+}
 }
