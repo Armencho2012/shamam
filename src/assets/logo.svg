@@ -1,0 +1,19 @@
+<!-- Placeholder SVG logo — replace this file with the provided image if you prefer a raster logo (logo.png) -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#FFDDE6" />
+      <stop offset="1" stop-color="#FFEFD5" />
+    </linearGradient>
+  </defs>
+  <circle cx="60" cy="60" r="56" fill="url(#g)" stroke="#F7C6CE" stroke-width="2" />
+  <!-- simple baker avatar -->
+  <g transform="translate(30,28) scale(0.7)">
+    <ellipse cx="42" cy="48" rx="18" ry="22" fill="#FFE6B3" />
+    <rect x="22" y="30" width="40" height="16" rx="8" fill="#fff" />
+    <path d="M20 30c10-26 52-26 62 0" fill="#fff" />
+    <circle cx="34" cy="46" r="2.5" fill="#8C5A4D" />
+    <circle cx="50" cy="46" r="2.5" fill="#8C5A4D" />
+    <path d="M32 56c6 4 16 4 22 0" stroke="#8C5A4D" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+</svg>

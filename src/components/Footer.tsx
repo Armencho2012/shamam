@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Coffee, Instagram, Facebook, MapPin, Phone, Mail, Heart } from "lucide-react";
+import logo from "@/assets/logo.svg";
 
 export const Footer = () => {
   return (
@@ -8,10 +9,8 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="space-y-4">
-            <Link to="/" className="flex items-center gap-2">
-              <div className="w-10 h-10 rounded-full bg-primary/30 flex items-center justify-center">
-                <Coffee className="w-5 h-5 text-primary" />
-              </div>
+            <Link to="/" className="flex items-center gap-3">
+              <img src={logo} alt="Shamam logo" className="w-10 h-10 rounded-full object-cover" />
               <span className="font-display text-3xl text-card">Շամամ</span>
             </Link>
             <p className="font-body text-card/70 leading-relaxed">
