@@ -38,7 +38,7 @@ export const InstagramSection = () => {
           {instagramPosts.map((post, index) => (
             <a
               key={index}
-              href="https://instagram.com"
+              href="https://www.instagram.com/shamams_macarons/"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-xl overflow-hidden"

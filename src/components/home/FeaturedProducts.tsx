@@ -1,23 +1,23 @@
-import macaronsImage from "@/assets/image (1).png";
-import croissantsImage from "@/assets/image (2).png";
-import baklavaImage from "@/assets/image (3).png";
-import coffeeImage from "@/assets/image (4).png";
+import macaronsImage from "@/assets/macaron-lavender.jpg";
+import croissantsImage from "@/assets/image (1).png";
+import baklavaImage from "@/assets/baklava.jpg";
+import coffeeImage from "@/assets/coffee.jpg";
 
 const featuredProducts = [
   {
-    name: "Ազնվական Մակարոններ",
+    name: "Մակարոններ",
     description: "Նուրբ ֆրանսիական մակարոններ տարբեր հոտավետ համերով — վարդ, պիստակ, մանուշակ և կիտրոն։",
     image: macaronsImage,
     color: "bg-primary/20",
   },
   {
-    name: "Կարագային Կրուասաններ",
+    name: "Կրուասաններ",
     description: "Փխրուն, ոսկեգույն կատարելություն, թխված ամեն առավոտ՝ ֆրանսիական կարագով։",
     image: croissantsImage,
     color: "bg-highlight/30",
   },
   {
-    name: "Ավանդական Բաղլավա",
+    name: "Ավանդական փախլավա",
     description: "Փխրուն շերտեր, մեղր և փիստակ — մեր ընտանեկան բաղադրատոմսը սերնդեսերունդ։",
     image: baklavaImage,
     color: "bg-secondary/50",

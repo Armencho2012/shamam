@@ -19,7 +19,7 @@ export const Footer = () => {
             </p>
             <div className="flex items-center gap-2">
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/shamams_macarons/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-card/10 flex items-center justify-center hover:bg-primary/30 transition-colors"
@@ -27,7 +27,7 @@ export const Footer = () => {
                 <Instagram className="w-5 h-5" />
               </a>
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/shamamsmacaroons"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-card/10 flex items-center justify-center hover:bg-primary/30 transition-colors"

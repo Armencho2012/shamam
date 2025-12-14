@@ -200,7 +200,7 @@ const Contact = () => {
                   </h3>
                   <div className="flex gap-4">
                     <a
-                      href="https://instagram.com"
+                      href="https://www.instagram.com/shamams_macarons/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-5 py-3 bg-gradient-to-r from-primary/20 to-accent/20 rounded-full font-body text-foreground hover:from-primary/30 hover:to-accent/30 transition-all"
@@ -208,7 +208,7 @@ const Contact = () => {
                       <Instagram className="w-5 h-5" /> Ինստագրամ
                     </a>
                     <a
-                      href="https://facebook.com"
+                      href="https://www.facebook.com/shamamsmacaroons"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 px-5 py-3 bg-muted rounded-full font-body text-foreground hover:bg-muted/80 transition-all"

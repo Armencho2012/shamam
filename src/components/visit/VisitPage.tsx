@@ -194,12 +194,12 @@ const VisitPage: React.FC = () => {
               </ContactItem>
               
               <SocialLinks>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <a href="https://www.instagram.com/shamams_macarons/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                   <FaInstagram />
                 </a>
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-                  <FaFacebook />
-                </a>
+                    <a href="https://www.facebook.com/shamamsmacaroons" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                      <FaFacebook />
+                    </a>
               </SocialLinks>
             </InfoCard>
             

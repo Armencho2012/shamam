@@ -205,10 +205,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <h3>Shamam's Macarons</h3>
             <p>Յուրաքանչյուր քաղցրավենիք պատրաստվում է սիրով և հոգատարությամբ:</p>
             <SocialIcons>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                 <a href="https://www.instagram.com/shamams_macarons/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <FaInstagram />
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                 <a href="https://www.facebook.com/shamamsmacaroons" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <FaFacebook />
               </a>
             </SocialIcons>

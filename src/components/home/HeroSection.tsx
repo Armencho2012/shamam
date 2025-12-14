@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/image (1).png";
+import heroImage from "@/assets/hero-bakery.jpg";
 
 export const HeroSection = () => {
   return (
@@ -26,12 +26,12 @@ export const HeroSection = () => {
 
           {/* Heading */}
           <h1 className="font-display text-5xl md:text-7xl lg:text-8xl text-card leading-tight animate-fade-in-up" style={{ animationDelay: "0.1s" }}>
-            Յուրաքանչյուր կծելը տան ջերմություն է
+            Սիրով պատրաստված, ժպիտով մատուցված
           </h1>
 
           {/* Subheading */}
           <p className="font-body text-lg md:text-xl text-card/80 max-w-2xl mx-auto leading-relaxed animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
-            Ձեռագիր մակարոններ, ավանդական բակլավա, կարագային կրուասաններ և հատուկ սուրճ — պատրաստված սիրով մեր ընտանեկան հրուշակարանում։
+            Սիրով ստեղծված մակարոններ, փախլավա, կրուասաններ և հատուկ սուրճ
           </p>
 
           {/* CTA Buttons */}
